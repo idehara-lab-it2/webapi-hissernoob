@@ -3,7 +3,7 @@ import json
 from html import escape
 
 # 検索語を入力
-s = input('検索＞')
+s = input('検索')
 
 # 日本語表示(language)、検索対象範囲を日本(country)、検索を入力文字列(term) として webAPI を実行
 # このとき、文字列は "html escape" する必要がある
