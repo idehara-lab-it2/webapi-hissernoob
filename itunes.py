@@ -5,7 +5,7 @@ from html import escape
 # 検索語を入力
 s = input('検索>')
 
-# 日本語表示(language)、検索対象範囲を日本(country)、検索を入力文字列(term) として webAPI を実行
+# 日本語表示(language)、検索対象範囲を日本(country)、検索を入力文字列(term) として webAPI を実行する
 # このとき、文字列は "html escape" する必要がある
 response = requests.get('https://itunes.apple.com/search?country=JP&language=ja_jp&term='+escape(s))
 
